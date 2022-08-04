@@ -2,6 +2,10 @@
 body{
     font-family: 'Kanit', sans-serif !important;
 }
+td a{
+    text-decoration: none;
+    color: black;
+}
 nav{
     background-color: #1C2E6D;
     padding: 1rem;
@@ -17,12 +21,13 @@ nav{
     justify-content: flex-end;
 }
 .button-login a{
+    border: none !important;
+    background: transparent;
+    color: white;
     text-decoration: none;
-    border: solid silver 1px;
-    padding: 0.5rem;
-    background: silver;
-    color: black;
-    border-radius: 10px;
+}
+.button-login a:hover{
+    color: white;
 }
 .title-home {
     background-color: #1C2E6D;
@@ -46,11 +51,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.date {
-    border: solid silver 1px;
-    padding: 0.5rem;
-    border-radius: 10px;
 }
 td{
 vertical-align: middle;
