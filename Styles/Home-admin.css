@@ -1,0 +1,12 @@
+@media screen and (max-width:767px){
+    .button-top-wrap {
+        flex-direction: column;
+    }
+    .button-group {
+        padding-top: 1rem;
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+    }
+}
